@@ -3,8 +3,10 @@
 
 In order to *install* the parser itself you can run this command.
 ```py
-pip install DexonlineParser
+pip install DexonlineParser=="0.0.4"
 ```
+You can replace 0.0.4 with whatever is the most up to date version that you can find here.
+https://pypi.org/manage/project/dexonlineparser/releases/
 
 Once you have installed the parser you can import it like this.
 ```py
