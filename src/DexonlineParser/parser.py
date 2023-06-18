@@ -89,15 +89,11 @@ class DexParser:
                             currentDefinition["text"] = spanTag.text  # set text to be the definition
 
                         else:
-                            print("Invalid Definition", spanTag.text)
                             validDefinition = False
 
                     elif validDefinition:
-                        print("Valid example", spanTag.text)
                         currentDefinition["examples"].append(spanTag.text)  # if text is an example for the current definition add it
 
-                    else:
-                        print("Invalid example", spanTag.text)
             else:
                 break
 
